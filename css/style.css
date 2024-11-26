@@ -6,24 +6,72 @@
 }
 
 /* regole header */
-
 header {
     background-color: #ff6900;
     position: fixed;
+    
     width: 100%;
     z-index: 900;
     /* DEBUG */
-    height: 100px;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* regole gender */
+.gender {
+    display: flex;
+    align-items: center;
+    width: 12%;
+}
+
+.gender-list {
+    list-style: none;
+    display: flex;
+}
+
+.gender-list a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+}
+
+/* regole logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.logo img {
+    width: 150px;
+}
+/* regole icone header */
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 12%;
+    color: white;
+}
+
+.icon-header i {
+    padding-right: 10px;
 }
 
 /* regole main */
-
 main{
     padding-top: 200px;
 }
 
 /* regole product list */
-
 .product-list {
     display: flex;
     justify-content: center;
@@ -31,7 +79,6 @@ main{
 }
 
 /* regole blocco prodotto */
-
 .product {
     width: 20%;
     margin-bottom: 20px;
@@ -48,7 +95,6 @@ main{
 
 
 /* regole label discount e eco */
-
 .discount-label {
     padding: 5px 10px;
     background-color: red;
@@ -87,7 +133,6 @@ main{
 }
 
 /* regole brand e prezzo */
-
 .info-product {
     display: flex;
     flex-direction: column;
@@ -103,7 +148,6 @@ main{
 }
 
 /* regole prezzi */
-
 .price {
     font-size: 15px;
 }
@@ -119,7 +163,6 @@ main{
 }
 
 /* regole hover img */
-
 .second-img {
     width: 100%;
     position: absolute;
@@ -137,9 +180,8 @@ main{
 
 
 /* regole footer */
-
 footer {
-    background-color: black;
+    background-color: #1a1a1a;
     width: 100%;
     /* DEBUG */
     height: 150px;
