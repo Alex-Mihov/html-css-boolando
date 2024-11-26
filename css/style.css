@@ -54,7 +54,7 @@ nav {
     width: 150px;
 }
 /* regole icone header */
-.icons {
+.icon-header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -181,9 +181,54 @@ main{
 
 /* regole footer */
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1a1a1a;
     width: 100%;
     /* DEBUG */
     height: 150px;
+}
+/* regole parte sinistra */
+.boolando {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 32%;
+}
 
+h3 {
+    color: white;
+}
+
+.politics {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-top: 15px;
+}
+
+.politics a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+/* regole parte destra */
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 32%;
+}
+
+h4 {
+    color: white;
+    margin-right: 50px;
+}
+
+.icon-header i {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 15px;
 }
