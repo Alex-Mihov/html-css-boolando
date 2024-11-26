@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+
+header {
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+    /* DEBUG */
+    height: 100px;
+}
+
+/* regole main */
+
+main{
+    padding-top: 200px;
+}
+
+/* regole product list */
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* regole blocco prodotto */
+.product {
+    width: 32%;
+    background-color: gray;
+    margin-bottom: 20px;
+    /* DEBUG */
+    height: 100px;
+    border: solid 1px #000;
+}
+/* regole footer */
+
+footer {
+    background-color: black;
+    width: 100%;
+    /* DEBUG */
+    height: 150px;
+
+}
