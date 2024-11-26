@@ -31,6 +31,7 @@ main{
 }
 
 /* regole blocco prodotto */
+
 .product {
     width: 20%;
     margin-bottom: 20px;
@@ -47,6 +48,7 @@ main{
 
 
 /* regole label discount e eco */
+
 .discount-label {
     padding: 5px 10px;
     background-color: red;
@@ -55,7 +57,7 @@ main{
     position: absolute;
     left: 0;
     bottom: 100px;
-    z-index: 10;
+    z-index: 20;
 }
 
 .eco-label {
@@ -66,7 +68,7 @@ main{
     position:absolute;
     bottom: 100px;
     left: 60px;
-    z-index: 10;
+    z-index: 20;
 }
 
 .liked {
@@ -76,7 +78,7 @@ main{
     position: absolute;
     right: 0;
     top: 5px;
-    z-index: 10;
+    z-index: 20;
 }
 
 .last-img {
@@ -101,6 +103,7 @@ main{
 }
 
 /* regole prezzi */
+
 .price {
     font-size: 15px;
 }
@@ -114,6 +117,25 @@ main{
     text-decoration: line-through;
 
 }
+
+/* regole hover img */
+
+.second-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 10;
+}
+
+.product:hover .second-img {
+    display: block;
+}
+
+
 /* regole footer */
 
 footer {
