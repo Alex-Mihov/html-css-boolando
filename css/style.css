@@ -64,6 +64,7 @@ nav {
 
 .icon-header i {
     padding-right: 10px;
+    
 }
 
 /* regole main */
@@ -224,10 +225,11 @@ h3 {
 
 h4 {
     color: white;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
-.icon-header i {
+.icon-footer i {
+    color: white;
     font-size: 25px;
     margin-left: 5px;
     margin-top: 15px;
